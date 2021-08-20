@@ -20,7 +20,7 @@ ctr --namespace moby container list
 ```
 ### Cordon the node
 ```
-kubectl cordon
+kubectl cordon <node-name>
 ```
 ### Drain the node
 ```
