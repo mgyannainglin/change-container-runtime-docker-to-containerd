@@ -11,7 +11,7 @@
 kubectl get nodes -o wide
 ```
 
-### check containerd namespae
+### check containerd namespae in node which you want to change container runtime
 ```
 ctr namespace list
 ```
